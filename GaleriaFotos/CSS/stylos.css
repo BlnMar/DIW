@@ -1,0 +1,43 @@
+#contenedorPrincipal{
+    width: 80%;
+    margin-left: 10%;
+}
+header{
+    background-color: rgb(228, 228, 228);
+    font-weight: bold;
+    height:20%;
+}
+
+form{
+    float: right;
+}
+#boton{
+    background-color: rgb(9, 228, 9);
+}
+
+nav{
+    background-color: rgb(78, 76, 76); 
+    height:20%;
+}
+p{
+    color: brown;
+}
+p:hover{
+    color: blue;
+}
+#inicio{
+    float: left;
+    margin: 10px 30px;
+}
+#galeria{
+    float: left;
+    margin: 10px 30px;
+}
+#acerca{
+    float: left;
+    margin: 10px 30px;
+}
+#contacto{
+    float: left;
+    margin: 10px 30px;
+}
