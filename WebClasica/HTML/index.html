@@ -8,22 +8,22 @@
   </head>
   <body>
     <header>
-      <nav class="menuSuperior">
+      <nav>
         <img src="../IMG/logo.png" alt="" />
         <h2>Mis cursos</h2>
-        <div class="enlaces">
-          <a href="" id="inicio">Inicio</a>
-          <a href="" id="cursos">Cursos</a>
-          <a href="" id="contacto">Contacto</a>
+        <div id="enlaces">
+          <a href="" >Inicio</a>
+          <a href="">Cursos</a>
+          <a href="">Contacto</a>
         </div>
         <form action="#" method="post">
-          <input type="text" name="texto" id="texto" placeholder="Buscar ..." />
-          <input type="button" id="boton" value="Buscar" />
+          <input type="text" name="texto"placeholder="Buscar ..." />
+          <input type="button" id="botonForm" value="Buscar" />
         </form>
       </nav>
 
-      <div id="botonFoto">
-        <input type="button" value="Únete ahora!" />
+      <div class="botonFoto">
+        <input type="button" id="boton" value="¡Únete ahora!" />
       </div>
     </header>
 
@@ -31,17 +31,17 @@
       <div class="carac1">
         <h3>Característica 1</h3>
         <p>Descripción breve de la característica 1</p>
-        <input type="button" id="boton" value="Saber más" />
+        <input type="button" id="botonCarac" value="Saber más" />
       </div>
       <div class="carac2">
         <h3>Característica 2</h3>
         <p>Descripción breve de la característica 2</p>
-        <input type="button" id="boton" value="Saber más" />
+        <input type="button" id="botonCarac" value="Saber más" />
       </div>
       <div class="carac3">
         <h3>Característica 3</h3>
         <p>Descripción breve de la característica 3</p>
-        <input type="button" id="boton" value="Saber más" />
+        <input type="button" id="botonCarac" value="Saber más" />
       </div>
     </section>
 
@@ -49,42 +49,48 @@
       <h3>Lo que dicen nuestros clientes</h3>
       <div class="usuario">
         <img src="../IMG/Burns.png" alt="" />
-        <p>"Ha sido un curso EXCELENTE"</p>
-        <br>
-        <p>Montgomery Burns</p>
+        <div id="opinion">
+          <p>"Ha sido un curso EXCELENTE,me ayudará a ganar más dinero."</p>
+          <p id="firma">Montgomery Burns.</p>
+        </div>
       </div>
       <div class="usuario">
         <img src="../IMG/Homer.png" alt="" />
-        <p>"He aprendido un montón,¡yuju!</p>
-        <br>
-        <p>Homer Simpson</p>
+        <div id="opinion">
+          <p>"He aprendido un montón,¡yuju!Ahora pareceré más inteligente!"</p>
+          <p id="firma">Homer Simpson.</p>
+        </div>
       </div>
       <div class="usuario">
         <img src="../IMG/Marge.png" alt="" />
-        <p>"Estudiar me ayuda a canalizar mi ira"</p>
-        <br>
-        <p>Marge Bouvier</p>
+        <div id="opinion">
+          <p>"Estudiar me ayuda a canalizar mi ira,os habeis hecho un favor."</p>
+          <p id="firma">Marge Bouvier.</p>
+        </div>
       </div>
     </article>
 
     <footer>
       <div id="redes">
         <h3>Redes Sociales</h3>
-        <img src="../IMG/icon-facebook.png" alt="">
-        <p>Facebook</p>
-        <img src="../IMG/icon-twitter.png" alt="">
-        <p>X</p>
-        <img src="../IMG/icon-instagram.png" alt="">
-        <p>Instagram</p>
+        <hr />
+        <img src="../IMG/icon-facebook.png" alt="" />
+        <a href="">Facebook</a>
+        <img src="../IMG/icon-twitter.png" alt="" />
+        <a href="">X</a>
+        <img src="../IMG/icon-instagram.png" alt="" />
+        <a href="">Instagram</a>
       </div>
       <div id="menu">
         <h3>Menú</h3>
-        <p>Inicio</p>
-        <p>Cursos</p>
-        <p>Contacto</p>
+        <hr />
+        <a href="">Inicio</a>
+        <a href="">Cursos</a>
+        <a href="">Contacto</a>
       </div>
       <div id="contacto">
         <h3>Contacto</h3>
+        <hr />
         <p>Email:Ejemplo@correo.com</p>
         <p>Telefono : +123.456.789</p>
       </div>

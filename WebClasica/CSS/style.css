@@ -1,46 +1,59 @@
-header{
-  width: 100%;
-}
-.menuSuperior {
+
+nav {
   display: flex;
-  height: 15%;
+  height: 40%;
 }
-header img {
+nav img {
   width: 4%;
 }
 h2 {
-  width: 13%;
-  height: 15%;
+  width: 15%;
 }
-.enlaces{
-  margin-left: 25%;
+#enlaces{
+  width: 20%;
+  margin-left: 20%;
   margin-top: 1.5%;
+  padding-left: 4%;
 }
-a {
+#enlaces a {
   text-decoration: none;
   color: rgb(78, 78, 78);
   border: 2px solid gray;
-  padding: 5px 9px;
   text-align: center;
+  padding: 2% 4%;
+  margin-right: 8%;
 }
-a:hover {
+#enlaces a:hover {
   background-color: rgb(172, 169, 169);
   color: rgb(78, 78, 78);
 }
 form {
-  margin-left: 25%;
+  width: 15%;
+  margin-left: 24%;
   margin-top: 1.5%;
 }
-#boton {
+#botonForm {
   background-color: rgb(78, 78, 78);
+  color: azure;
 }
-#botonFoto {
-  background-image: url("https://picsum.photos/1600/800?ramdon=1");
+.botonFoto {
+  background-image: url("https://picsum.photos/2000/1000?ramdon=1");
   background-repeat: no-repeat;
   text-align: center;
   clear: both;
-  height: 40%;
-  padding: 130px;
+  height: 60%;
+  padding: 190px;
+}
+#boton{
+  background-color: rgb(78, 78, 78);
+  color: azure;
+  font-size: larger;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+#boton:hover{
+  background-color: rgb(172, 169, 169);
 }
 
 
@@ -52,18 +65,19 @@ section {
 .carac1 {
   float: left;
   text-align: center;
-  background-color: rgb(172, 169, 169);
+  background-color: rgb(223, 220, 220);
   border: 2px solid gray;
+  border-radius: 5px;
   width: 32%;
   margin: 0.5%;
   padding-bottom: 2%;
- 
 }
 .carac2 {
   float: left;
   text-align: center;
-  background-color: rgb(172, 169, 169);
+  background-color: rgb(223, 220, 220);
   border: 2px solid gray;
+  border-radius: 5px;
   width: 32%;
   margin: 0.5%;
   padding-bottom: 2%;
@@ -71,41 +85,86 @@ section {
 .carac3 {
   float: right;
   text-align: center;
-  background-color: rgb(172, 169, 169);
+  background-color: rgb(223, 220, 220);
   border: 2px solid gray;
+  border-radius: 5px;
   width: 32%;
   margin: 0.5%;
   padding-bottom: 2%;
+}
+#botonCarac{
+  background-color: rgb(78, 78, 78);
+  color: azure;
+  border-radius: 5px;
+}
+#botonCarac:hover{
+  background-color: rgb(172, 169, 169);
 }
 article {
   clear: both;
 }
 .usuario{
   width: 33%;
-  margin: 3%;
   display: flex;
 }
 .usuario img{
-  width: 15%;
-  border-radius: 30px;
-  float: left;
+  float:left;
+  width: 10%;
+  height: 10%;
+  border-radius: 50px;
+  box-shadow: -3px 10px 12px gray;
+  margin: 3% 0%;
 }
-.usuario p{
+#opinion{
   float: right;
+  margin: 2%;
 }
+#firma{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 footer{
   background-color: rgb(65, 65, 172);
 }
+footer hr{
+  height: 1px;
+  color: rgb(0, 166, 255);
+  margin: 8px;
+}
 footer img{
-  width: 8%;
+  width: 5%;
 }
 #redes{
   float: left;
   width: 33%;
 }
+#redes img{
+  float: left;
+  width: 4%;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+#redes a{
+  text-decoration: none;
+  display: block;
+  margin-top: 3%;
+  color: rgb(0, 166, 255);
+}
+#redes a:hover {
+  color: azure;
+}
 #menu{
   float: left;
   width: 33%;
+}
+#menu a{
+  text-decoration: none;
+  display: block;
+  margin-top: 2%;
+  color: rgb(0, 166, 255);
+}
+#menu a:hover {
+  color: azure;
 }
 #contacto{
   float: right;
