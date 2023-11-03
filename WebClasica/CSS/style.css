@@ -1,4 +1,6 @@
-
+h2,a,h3{
+font-family: Arial, Helvetica, sans-serif;
+}
 nav {
   display: flex;
   height: 40%;
@@ -96,10 +98,13 @@ section {
   background-color: rgb(78, 78, 78);
   color: azure;
   border-radius: 5px;
+  padding: 5px 15px;
 }
 #botonCarac:hover{
   background-color: rgb(172, 169, 169);
 }
+
+
 article {
   clear: both;
 }
@@ -123,35 +128,44 @@ article {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+
 footer{
-  background-color: rgb(65, 65, 172);
+  height: 14%;
+  width: 100%;
+  float: left;
+  background-color: rgb(30, 96, 153);
+}
+footer h3 {
+  color: azure;
+  margin-left: 2%;
 }
 footer hr{
-  height: 1px;
-  color: rgb(0, 166, 255);
-  margin: 8px;
-}
-footer img{
-  width: 5%;
+  width: 90%;
+  height: 2px;
+  background-color: rgb(95, 178, 223);
+  border: 0;
+  margin-left: 2%;
 }
 #redes{
   float: left;
   width: 33%;
 }
 #redes img{
-  float: left;
   width: 4%;
-  margin-top: 3%;
-  margin-right: 2%;
+  margin-left: 2%;
+  
 }
 #redes a{
   text-decoration: none;
-  display: block;
-  margin-top: 3%;
-  color: rgb(0, 166, 255);
+  margin-left: 2%;
+  
+  color: rgb(95, 178, 223);
 }
 #redes a:hover {
   color: azure;
+}
+#face, #twit, #insta{
+  margin-bottom: 2%;
 }
 #menu{
   float: left;
@@ -161,7 +175,8 @@ footer img{
   text-decoration: none;
   display: block;
   margin-top: 2%;
-  color: rgb(0, 166, 255);
+  margin-left: 2%;
+  color: rgb(95, 178, 223);
 }
 #menu a:hover {
   color: azure;
@@ -169,4 +184,8 @@ footer img{
 #contacto{
   float: right;
   width: 33%;
+}
+#contacto p{
+  margin-left: 2%;
+  color: azure;
 }
