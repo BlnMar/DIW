@@ -1,0 +1,56 @@
+#container{
+    width:50%;
+    margin-left: 25%;
+}
+#brand {
+   width: 60%; 
+}
+#brand a{
+    text-decoration: none;
+    float: left;
+    color: purple;
+    font-weight: lighter;
+    font-size: larger;
+}
+#searchBox{
+    background: linear-gradient(to bottom, #dbf07f, #7fd44e);
+    float: right;
+    width: 35%;
+    padding: 2%;
+    margin-bottom: 2%;
+   
+}
+.submit{
+    background-color: purple;
+    color: azure;
+    margin-left: 20%;
+}
+#menu{
+    clear: both;
+    text-decoration: none;
+    height: 15%;
+    background: linear-gradient(to bottom, #e1ecad, #dbf07f);
+}
+#menu ul{
+    display: flex;
+}
+#menu li{
+    list-style: none;
+    margin-left: 5%;
+    padding: 1%;
+}
+#menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.active{
+    font-weight: bold;
+    color: purple;
+}
+#introduction h3, p{
+    color: #69974e;
+}
+#introduction{
+    background: linear-gradient(to bottom, #dbf07f, #7fd44e);
+   height: 30%;
+}
