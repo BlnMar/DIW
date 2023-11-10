@@ -32,7 +32,6 @@
 
 
 #menu{
-    
     clear: both;
     text-decoration: none;
     height: 15%;
@@ -48,21 +47,26 @@
     text-align: center;
     width: 23%; 
 }
-
+#menu li:first-child{
+    width: 10%; 
+}
+#menu ul li a.active{
+    border-left: none;
+}
 #menu a{
     text-decoration: none;
     text-transform: uppercase;  
     border-left:2px solid purple ; 
     padding: 3% 6%; 
-}
-#menu a:hover{
-    color: rgb(212, 22, 212);
-    transition: font-size 0.5s , font-weight 0.5s, color 0.5s, border-left 0.5s;  
+    color: purple;
 }
 #menu ul li a:hover, #menu ul li a.active{
     font-weight: bold;
-    color: rgb(212, 22, 212);   
-}
+    color: rgb(212, 22, 212); 
+   /* transition: transform 0.5s ease-in-out;*/
+} 
+
+
 
 
 #introduction h3{
