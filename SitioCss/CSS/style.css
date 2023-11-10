@@ -2,6 +2,8 @@
     width:60%;
     margin-left: 20%;
 }
+
+
 #brand {
    width: 60%; 
 }
@@ -18,57 +20,56 @@
     width: 39%;
     padding: 2%;
     margin-bottom: 2%;
-   
 }
 .submit{
     background-color: purple;
     color: azure;
     margin-left: 8%;
-   
 }
+.text{
+    background: url(../IMG/search.png)  no-repeat right  azure;  
+}
+
+
 #menu{
+    
     clear: both;
     text-decoration: none;
     height: 15%;
-    background: linear-gradient(to bottom, #e1ecad, #dbf07f);
+    background: linear-gradient(to bottom, rgb(250, 252, 151), #fff344);
 }
 #menu ul{
     display: flex;
-   /*background-color: blue;*/
     padding: 2%;
 }
 #menu li{
     list-style: none;
     font-size: smaller;
     text-align: center;
-    width: 20%;
-   /* background-color: red;*/
-    border-left:2px solid purple ;
-    padding: 3px;
+    width: 23%; 
 }
-#menu li:first-child{
-    border-left: none;
-}
+
 #menu a{
     text-decoration: none;
-    text-transform: uppercase;   
+    text-transform: uppercase;  
+    border-left:2px solid purple ; 
+    padding: 3% 6%; 
 }
 #menu a:hover{
-    font-size: 15px;
-    font-weight: bolder;
     color: rgb(212, 22, 212);
-    transition: font-size 0.3s , font-weight 0.3s, color 0.3s; 
+    transition: font-size 0.5s , font-weight 0.5s, color 0.5s, border-left 0.5s;  
 }
-.active{
+#menu ul li a:hover, #menu ul li a.active{
     font-weight: bold;
     color: rgb(212, 22, 212);   
 }
+
+
 #introduction h3{
     color: #496936;
     font-weight: lighter;
     font-size: larger;
 }
-
 #introduction{
     background: linear-gradient(to bottom, #dbf07f, #7fd44e);
     height: 30%;
@@ -81,32 +82,35 @@
     width: 45%;
     height: 50%;
     margin-top: 3%;
+    margin-bottom: 3%;
     text-decoration: none;
     color: rgb(212, 22, 212);
     border: 1px solid #7fd44e;
     border-radius: 10px;
     padding-left: 2%;
 }
-
 .sidebar li {
     margin-top:3% ;
     margin-left: 3%;
-    
 }
 .sidebar a {
     text-decoration: none;
     color:rgb(151, 52, 218);
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
-#leftsidebar{
+.sidebar a:hover {
+    color: rgb(212, 22, 212);
+}  
+#leftsidebar {
     float: left;
-    list-style-image: url('../IMG/arrow.png');
-    
+    list-style-image: url('../IMG/arrow.png');  
 }
-#rightsidebar{
+#rightsidebar {
     float: right;
     list-style-image: url('../IMG/tick.png');
+}
+#rightsidebar li { 
+    padding-top: 1.5%;
 }
 
 
@@ -115,7 +119,7 @@
     clear: both;
     width: 100%;
     height: 8%;
-    background: linear-gradient(to bottom, #e1ecad, #dbf07f);
+    background: linear-gradient(to bottom, rgb(250, 252, 151), #fff344);
     text-align: center;
-    padding: 2%;
+    padding: 2%;  
 }
