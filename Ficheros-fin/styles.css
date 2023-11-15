@@ -1,0 +1,145 @@
+body {
+    box-sizing: border-box;
+    margin:0;
+    background: #ff9966;  /* fallback for old browsers */
+
+}
+.header-sitio {
+    background-color: #03A9F4;
+    padding:0 20px;
+    /* Flex aquí*/
+    display:flex;
+    flex-direction:column;
+
+}
+@media screen and (min-width:768px) {
+    .header-sitio {
+        /* Flex aquí*/
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+.header-sitio h1 {
+    color:white;
+}
+
+nav {
+    /* Flex aquí*/
+    align-self: center;
+}
+nav a {
+    color: white; 
+    font-family: 'IBM Plex Serif', serif;
+    text-decoration: none;
+}
+
+.contenedor {
+    background-color: white;
+    min-height: calc( 100vh - 20px );
+	/*La función calc realiza cálculos. 
+	  En este caso estamos diciendo que el alto
+	  debe medir como mínimo el alto del viewport (viewport height, vh)
+	  menos 20 px.
+	*/
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 30px 0 30px;
+}
+h1, h2 {
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+}
+h2 {
+    color:white;
+}
+
+.contenedor-flex {
+    margin-top: 20px;
+    /* Flex aquí*/
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px) { 
+    .contenedor-flex {
+       /* Flex aquí*/
+       flex-direction: row;
+    }
+}
+
+.principal {
+    /* Flex aquí*/
+    order: 2;
+
+
+}
+aside {
+    /* flex aquí*/
+    margin-bottom: 1rem;
+}
+
+aside {
+    background-color: #03A9F4;
+}
+@media screen and (min-width:768px) {
+    .principal {
+        /* Flex aquí*/
+        flex: 0 1 60%;
+        margin-right:1rem;
+        order: -1;
+    
+    }
+    aside {
+        /* Flex aquí*/
+        flex:1;
+		
+		/*flex <numero-positivo> es equivalente a 
+			flex:<numero-positivo> 1 0;
+		Por tanto, flex:1; es equivalente a flex: 1 1 0;
+		flex-grow: 1 El div crecerá en la misma proporción que el tamaño de la ventana
+		flex-shrink: 1 El div se encogerá en la misma proporción que el tamaño de la ventana.
+		flex-basis: 0 El div no tiene un valor inicial y ocupará la pantalla según el tamaño disponible. Por ejemplo, si tenemos 3 divs, cada uno ocupará el 33%.
+
+		*/
+
+    }
+}
+
+@media screen and (min-width:768px) {
+    .servicios {
+        /* Flex aquí*/
+        display: flex;
+        
+    }
+    .servicios .servicio {
+        /* Flex aquí*/
+        flex: 1;
+    }
+}
+
+.servicio {
+    padding: 5px;
+    background-color: #E53935;
+}
+
+
+.servicio:nth-child(2) {
+    background-color: #8E24AA;
+}
+
+.servicio:nth-child(3) {
+    background-color: #3F51B5;
+}
+
+footer {
+    height: 100px;
+    background-color: #8E24AA;
+    margin-top: 20px;
+    /* Flex aquí*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: white;
+}
