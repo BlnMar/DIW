@@ -1,7 +1,9 @@
 h1{
     text-align: center;
-   /* flex-grow: 1;
-    flex-basis: auto;*/
+    background-color: rgb(198, 204, 204);
+    margin: 0 auto;
+    width: 90%;
+    height:100px;
 }
 h1::first-letter {
     text-transform: uppercase;
