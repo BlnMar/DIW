@@ -3,27 +3,28 @@ h1{
     background-color: rgb(198, 204, 204);
     margin: 0 auto;
     width: 90%;
-    height:100px;
+    padding-top:4% ;
 }
 h1::first-letter {
     text-transform: uppercase;
   }
 #contenedor{
     display : flex;
-    width: 90%;
+    width: 80%;
     background-color: rgb(198, 204, 204);
     flex-wrap: wrap;
     margin: 0 auto;
-    /*padding: 4%;*/
+    padding: 5%;
+    justify-content: space-around;
 }
 .caja{
     flex: 0 1 calc(50% - 1rem);
     background-color: white;
     text-align: center; 
-   /* margin: 1%; */
+    margin-top: 2%; 
 }
   
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (min-width: 480px){
     .caja{
       flex: 0 1 calc(33% - 1rem);
     }
