@@ -1,0 +1,48 @@
+div{
+    background-color: rgb(88, 88, 182);
+}
+ul{
+    display: flex;
+    justify-content: center; /* centrar los elementos horizontalmente */
+    align-items: center; /*centrar los elementos verticalmente */
+}
+li{
+    list-style: none;
+    flex-grow: 6; /*ocupar espacio disponible*/
+    padding: 1% ;
+    color: azure;
+}
+dl{
+    display: flex;
+    flex-wrap: wrap;
+}    
+#caja{
+    flex:1;
+    box-sizing: border-box;
+}
+dt{
+    padding: 3% ;
+    color: azure;
+    margin: 0;
+}
+i{
+    width: 10%;
+}
+dd{
+    color: azure;
+    padding-bottom: 4%;
+    font-size: small;
+}
+@media (max-width: 768px) {
+    .menu1 ul{
+        flex-direction: column; 
+        text-align: center;  
+    }
+    .menu1 li{
+        padding: 6%;
+    }
+   #caja{
+        flex: 50%;
+   }
+}
+
