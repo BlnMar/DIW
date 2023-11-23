@@ -1,85 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/all.css">
-    <link rel="stylesheet" href="../CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/all.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
     <title>MenusFlexbox</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>Menú Sencillo</h1>
     <div class="menu1">
-        <ul>
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Servicios</li>
-            <li>Contacto</li>
-            <li>Tienda Virtual</li>
-            <li>Asistencia</li>
-        </ul>
+      <ul>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Servicios</li>
+        <li>Contacto</li>
+        <li>Tienda Virtual</li>
+        <li>Asistencia</li>
+      </ul>
     </div>
 
     <h2>Con Iconos</h2>
     <div class="menu2">
-        <dl>
-            <div id="caja">
-                <dt><i class="fas fa-home"></i>Inicio</dt>
-                <dd>Pagina Principal</dd>
-            </div>
-            <div id="caja">
-                <dt><i class="fas fa-envelope"></i>Contacto</dt>
-                <dd>Escríbenos aquí</dd> 
-            </div>
-            <div id="caja">
-                <dt><i class="fas fa-dollar-sign"></i>Tienda Virtual</dt>
-                <dd>Adquiere nuestros artículos</dd> 
-            </div>
-            <div id="caja">
-                <dt><i class="fas fa-question-circle"></i>Asistencia</dt>
-                <dd>¿Necesitas ayuda?</dd>
-            </div>
-        </dl>
+      <dl>
+        <div id="caja">
+          <dt><i class="fas fa-home"></i>Inicio</dt>
+          <dd>Pagina Principal</dd>
+        </div>
+        <div id="caja">
+          <dt><i class="fas fa-envelope"></i>Contacto</dt>
+          <dd>Escríbenos aquí</dd>
+        </div>
+        <div id="caja">
+          <dt><i class="fas fa-dollar-sign"></i>Tienda Virtual</dt>
+          <dd>Adquiere nuestros artículos</dd>
+        </div>
+        <div id="caja">
+          <dt><i class="fas fa-question-circle"></i>Asistencia</dt>
+          <dd>¿Necesitas ayuda?</dd>
+        </div>
+      </dl>
     </div>
 
     <h2>Dropdown Menu</h2>
     <div class="menu3">
-        <ul>
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Tienda Virtual</li>
-            <li>Asistencia</li>
-        </ul>
+      <ul>
+        <li>Inicio</li>
+        <li>Nosotros
+          <ul id="anidado">
+                <li>Mision</li>
+                <li>Vision</li>
+                <li>Valores</li>
+          </ul>
+        </li>
+        <li>Tienda Virtual
+          <ul id="anidado">
+                <li>Producto1</li>
+                <li>Producto2</li>
+                <li>Producto3</li>
+          </ul>
+        </li>
+        <li>Asistencia</li>
+      </ul>
     </div>
 
     <h2>Redes Sociales</h2>
     <div class="menu4">
-        <ul>
-            <li><img src="" alt="face"></li>
-            <li><img src="" alt="x"></li>
-            <li><img src="" alt="youtube"></li>
-            <li><img src="" alt="instagram"></li>
-            <li><img src="" alt="pinterest"></li>
-        </ul>
+      <ul>
+        <li><img src="" alt="face" /></li>
+        <li><img src="" alt="x" /></li>
+        <li><img src="" alt="youtube" /></li>
+        <li><img src="" alt="instagram" /></li>
+        <li><img src="" alt="pinterest" /></li>
+      </ul>
     </div>
 
     <h2>DropDown con redes sociales</h2>
     <div class="menu5">
-        <ul id="letras">
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Tienda Virtual</li>
-            <li>Asistencia</li>
-        </ul>
-        <ul id="iconos">
-            <li><img src="" alt="face"></li>
-            <li><img src="" alt="x"></li>
-            <li><img src="" alt="youtube"></li>
-            <li><img src="" alt="instagram"></li>
-            <li><img src="" alt="pinterest"></li>
-        </ul>
+      <ul id="letras">
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Tienda Virtual</li>
+        <li>Asistencia</li>
+      </ul>
+      <ul id="iconos">
+        <li><img src="" alt="face" /></li>
+        <li><img src="" alt="x" /></li>
+        <li><img src="" alt="youtube" /></li>
+        <li><img src="" alt="instagram" /></li>
+        <li><img src="" alt="pinterest" /></li>
+      </ul>
     </div>
-    
-</body>
+  </body>
 </html>
