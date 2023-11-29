@@ -1,0 +1,49 @@
+
+#contenedor{
+    display : flex;
+    width: 80%;
+    background-color: rgb(198, 204, 204);
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 5%;
+    justify-content: space-around;
+    
+    
+}
+.caja{
+    
+    background-color: white;
+    text-align: center; 
+    margin-top: 2%;
+    border-radius: 5px; 
+    
+}
+img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px; 
+}
+input{
+    background-color: rgb(7, 54, 209);
+    color: azure;
+    padding: 2% 5% 2% 5%;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (min-width: 1200px) {
+    .caja {
+        flex: 0 1 calc(25% - 1rem);
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .caja {
+        flex: 0 1 calc(33% - 1rem);
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width:0){
+    .caja {
+        flex: 0 1 calc(50% - 1rem);
+    }
+}
