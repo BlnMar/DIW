@@ -1,12 +1,16 @@
 body {
   background: linear-gradient(rgb(172, 234, 236), rgb(30, 98, 100));
   background-repeat: no-repeat;
+  display: flex;
+  min-height: 1000px;
+  flex-direction: column;
 }
-#contenedor {
+.contenedor {
   width: 90%;
   margin-left: 5%;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 header {
   background-color: rgb(169, 235, 71);
@@ -14,11 +18,15 @@ header {
 section {
   background-color: rgb(171, 214, 200);
   text-align: center;
+  flex: 1;
 }
 footer {
   background-color: black;
   color: azure;
   text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 h2,h3,p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
