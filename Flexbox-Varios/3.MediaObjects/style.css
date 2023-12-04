@@ -1,3 +1,29 @@
 body{
     background: linear-gradient(rgb(172, 234, 236), rgb(30, 98, 100));
+    background-repeat: no-repeat;
+}
+h2{
+    text-align: center;
+}
+.contenedor{
+    background-color: azure;
+    width: 70%;
+    margin-left: 15%;
+   
+}
+#caja1,#caja3{
+    display: flex;
+    align-items: center;
+}
+#caja2{
+    background-color: rgb(180, 176, 176);
+    width: 70%;
+    padding: 2%;
+    margin-left: 20% ;
+    display: flex;
+    align-items: center;
+}
+p{
+    flex-grow: 1;
+    margin-left: 1%;
 }

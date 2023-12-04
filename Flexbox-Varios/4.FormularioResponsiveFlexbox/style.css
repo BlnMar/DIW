@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+}
+form{
+    width: 80%;
+    margin-left: 10%;
+}
+
+input[type="button"]{
+    background-color: blue;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 1%;
+}
