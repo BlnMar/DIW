@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(250, 211, 151);
+    
+}
+.container{
+  
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+}
+
+input{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 2%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        
+    }
+    .container :nth-child(1) { order: 2; }
+    .container :nth-child(2) { order: 1; }
+    .container :nth-child(3) { order: 4; }
+    .container :nth-child(4) { order: 3; }
+   
+
+}

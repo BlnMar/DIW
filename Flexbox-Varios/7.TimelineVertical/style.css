@@ -1,0 +1,18 @@
+.box{
+    display: flex;
+}
+
+#radio{
+    background-color: black;
+    margin: 5%;
+
+}
+input {
+    border: none;
+    border-left: 5px solid black;
+    padding: 5% 0;
+}
+
+.letras{
+    margin-left: 5%;
+}
