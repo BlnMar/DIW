@@ -2,17 +2,25 @@
     display: flex;
 }
 
-#radio{
-    background-color: black;
-    margin: 5%;
-
-}
-input {
-    border: none;
-    border-left: 5px solid black;
-    padding: 5% 0;
+.simbolo{
+    display: block;
 }
 
 .letras{
     margin-left: 5%;
 }
+
+#punto{
+    background-color: black;
+    border-radius: 100%;
+    margin: 0 10% 0 10%;
+    
+}
+#linea {
+    border: none;
+    border-left: 5px solid black;
+    padding: 80% 0;
+    margin-left: 30%;
+    
+}
+
