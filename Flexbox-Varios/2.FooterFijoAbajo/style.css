@@ -4,6 +4,7 @@ body {
   display: flex;
   min-height: 1000px;
   flex-direction: column;
+  min-height: 100vh;/*indica que body tiene que adaptarse al tamaño de la ventana*/
 }
 .contenedor {
   width: 90%;
@@ -11,6 +12,8 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  position: relative;/*complemento de position abs de footer*/
+ 
 }
 header {
   background-color: rgb(169, 235, 71);
@@ -24,9 +27,9 @@ footer {
   background-color: black;
   color: azure;
   text-align: center;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+  position: absolute; /*fija la posicion de footer*/
+  bottom: 0;/*indica q no hay margen abajo para q este fijado en ese punto*/
+  width: 100%;/*necesario porque position ab. hace que pierda sus medidas */
 }
 h2,h3,p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

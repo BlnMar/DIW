@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}
+.izquierda{
+    flex: 1;
+}
+.derecha{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}    
+h2, h5{
+    color: aliceblue;
+    font-weight: lighter;
+    margin: 1% 4%;
+}
+p{
+    color: aliceblue;
+    margin: 6% 4% 3% 4%;
+}
+input{
+    margin: 1% 4%;
+}
+img{
+    width: 99%;
+    height: 99%;
+}

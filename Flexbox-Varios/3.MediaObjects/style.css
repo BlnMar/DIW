@@ -9,24 +9,29 @@ h2{
     background-color: azure;
     width: 70%;
     margin-left: 15%;
-   
-   
 }
 #caja1,#caja3{
     display: flex;
-    align-items: center;
-   
+    
+    align-items: center; 
+    padding: 2%;
 }
 #caja2{
-    background-color: rgb(180, 176, 176);
+    background-color: rgb(187, 236, 255);
     width: 70%;
-    padding: 2%;
-    margin-left: 20% ;
+    margin-left: 18% ;
     display: flex;
-    align-items: center;
-    
+   
+    align-items: center; 
+    padding: 2%;
 }
 p{
-    flex-grow: 1;
-    margin-left: 1%;
+    flex: 1;
+    margin-left: 3%;
+    
+}
+img{
+    flex: 0 0 auto;
+    
+    
 }

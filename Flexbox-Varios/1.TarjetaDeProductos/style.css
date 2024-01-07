@@ -2,26 +2,24 @@
 #contenedor{
     display : flex;
     width: 80%;
-    background-color: rgb(198, 204, 204);
+    background-color: rgb(253, 253, 253);
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 5%;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around; 
 }
 .caja{
-    
+    flex: 0 1 calc(50% - 1rem);
     background-color: white;
     text-align: center; 
     margin-top: 2%;
-    border-radius: 5px; 
-    
+    border-radius: 5px;  
+    border: solid 2px gainsboro ;
+    height: 50%;
 }
 img{
     width: 100%;
-    height: 50%;
-    border-radius: 5px; 
+    height: 50%; 
+    border-radius: 5px;
 }
 input{
     background-color: rgb(7, 54, 209);
@@ -29,6 +27,7 @@ input{
     padding: 2% 5% 2% 5%;
     border: none;
     border-radius: 5px;
+    margin-bottom: 5%;
 }
 @media screen and (min-width: 1200px) {
     .caja {
